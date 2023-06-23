@@ -87,7 +87,7 @@
                 <div class="text">
                     <input type="text" name="message" id="message" placeholder="Message">
                 </div>
-                <input type="submit" value="submit" name="send">
+                <input type="submit" value="submit" name="send"> made changes 
             </form>
         </div>
     </div>
