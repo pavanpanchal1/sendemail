@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,10 +32,7 @@
             background-color: #bbc9c160;
             padding: 2rem;
             border-radius: 10px;
-
-
         }
-
         input[type=number],
         input[type=text],
         input[type=email] {
@@ -94,9 +90,6 @@
                 <input type="submit" value="submit" name="send">
             </form>
         </div>
-
     </div>
-
 </body>
-
 </html>

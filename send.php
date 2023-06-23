@@ -16,8 +16,6 @@ require '/opt/lampp/htdocs/mywork/sendmail/phpmailer/PHPMailer-master/src/PHPMai
 // require 'phpmailer/src/Exception.php';
 // require 'phpmailer/src/PHPMailer.php';
 // require 'phpmailer/src/SMTP.php';
-
-
 if (isset($_POST["send"])) {
     $mail = new PHPMailer(true);
     $mail->isSMTP();
@@ -30,7 +28,6 @@ if (isset($_POST["send"])) {
 
     $mail->setFrom('panchalpavan800@gmail.com');
     // $mail -> addAttachment('index.php'); 
-
     $mail->addAddress($_POST["email"]);
     $mail->isHTML(true);
 
